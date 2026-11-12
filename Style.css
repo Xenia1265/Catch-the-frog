@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #eef8f4;
+}
+
+#runaway-img {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: left 0.15s ease-out, top 0.15s ease-out;
+    user-select: none;
+}
+
+#links-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    z-index: 10;
+}
+
+#links-container h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+#links-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#links-list li {
+    margin-bottom: 6px;
+}
+
+#links-list a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+#links-list a:hover {
+    text-decoration: underline;
+}
+
+.status-badge {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+}
